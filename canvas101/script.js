@@ -36,6 +36,9 @@ function Ball(x,y,r){
     this.er = Math.PI * 2;
 
     this.r = r;
+}
+
+Ball.prototype.drawBall = function(){
     context.beginPath();
     context.arc(this.x,this.y,this.r,this.sr,this.er);
     context.fill();
@@ -43,3 +46,6 @@ function Ball(x,y,r){
 
 aBall = new Ball(112,250,80);
 anotherBall = new Ball(400,400,22);
+
+aBall.drawBall();
+anotherBall.drawBall();
