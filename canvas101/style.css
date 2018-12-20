@@ -1,1 +1,5 @@
-body{background:gainsboro;}
+body{background:gainsboro; margin:0; padding:0;}
+
+canvas{
+    background:rgb(112, 112, 112);
+}
